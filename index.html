@@ -562,11 +562,11 @@
       <div class="skill-name">FastAPI</div>
       <div class="skill-level"><div class="skill-level-bar" style="width:80%"></div></div>
     </div>
-    <div class="skill-card reveal" style="animation-delay:0.4s">
+    <!-- <div class="skill-card reveal" style="animation-delay:0.4s">
       <div class="skill-icon">☸️</div>
       <div class="skill-name">Kubernetes</div>
       <div class="skill-level"><div class="skill-level-bar" style="width:60%"></div></div>
-    </div>
+    </div> -->
     <div class="skill-card reveal" style="animation-delay:0.4s">
       <div class="skill-icon">🤖</div>
       <div class="skill-name">LLMs</div>
@@ -642,7 +642,24 @@
         </div>
       </div>
     </div>
-
+    <div class="project-card reveal" style="animation-delay:0.3s">
+      <div class="project-thumb">
+        <img src="ocr-transcription.png" alt="Project Three Preview" class="project-image">
+      </div>
+      <div class="project-body">
+        <div class="project-tags">
+          <span class="project-tag">Node.js</span>
+          <span class="project-tag">Redis</span>
+          <span class="project-tag">Groq AI</span>
+        </div>
+        <h3>Idempotency Keys - AI Summary</h3>
+        <p>
+        Built a REST API that solves a real production problem — duplicate network requests. When a user double-clicks a button, the server detects the duplicate using an idempotency key combined with a SHA-256 hash of the request text, returns the cached result from Redis instantly, and skips the AI call entirely. Integrated Groq's LLaMA 3.3 model for real-time text summarization.
+        <div class="project-links">
+          <a href="https://github.com/Pragna37/Idempotency-keys" class="project-link">⬡ GitHub</a>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
