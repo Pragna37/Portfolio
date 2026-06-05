@@ -285,7 +285,7 @@
   .view-all:hover { gap: 10px; }
   .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
   }
   .project-card {
@@ -643,8 +643,9 @@
       </div>
     </div>
     <div class="project-card reveal" style="animation-delay:0.3s">
-      <div class="project-thumb">
-        <img src="ocr-transcription.png" alt="Project Three Preview" class="project-image">
+      <div class="project-thumb" style="background: linear-gradient(135deg, #1a1a24 0%, #0a0a0f 100%); display:flex; align-items:center; justify-content:center; flex-direction:column; gap:12px;">
+        <div style="font-size: 3rem;">🔑</div>
+        <div style="font-size: 0.8rem; color: var(--muted); letter-spacing: 0.1em;">IDEMPOTENCY · REDIS · AI</div>
       </div>
       <div class="project-body">
         <div class="project-tags">
